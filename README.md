@@ -2,20 +2,6 @@
 
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
-## Get started
-
-1. Install dependencies
-
-   ```bash
-   npm install
-   ```
-
-2. Start the app
-
-   ```bash
-    npx expo start
-   ```
-
 In the output, you'll find options to open the app in a
 
 - [development build](https://docs.expo.dev/develop/development-builds/introduction/)
@@ -48,6 +34,14 @@ Join our community of developers creating universal apps.
 
 - [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
 - [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+
+
+## Exporter Service
+User interacts with the component to choose an export option (PDF, DOC, XLS, etc.).
+
+Renderer: [https://github.com/diegomura/react-pdf#readme] Documentation: [https://react-pdf.org/]
+
+
 
 # The Emotional AI Project
 Developmental Project by MO Cavada
@@ -106,97 +100,7 @@ The AI component of the app will assist users in:
 
 The book premise aligns with our goal to create an introspective guide and incorporate Emotional AI to support users in understanding and improving their connections that foster healthier and meaningful relationships.
 
-## Introspection Algorithms
-
-OpenAI can be used to implement and enhance the introspection algorithm by referring to the 3 Constants of Human Connections. Here’s how it can be done:
-
-### 1. Change – Dynamics of Interaction
-
-**Algorithm Explanation**:
-
-- **Act**: Identify and analyze initial interactions, such as changing the topic in a conversation.
-- **React**: Understand and interpret responses to these actions, determining how they ignite subsequent interactions.
-- **Attract**: Analyze what aspects of the interaction attract and maintain engagement.
-
-**Implementation with OpenAI**:
-
-- **Act**: Use the model to parse user inputs and detect initial actions.
-- **React**: Generate possible reactions and interpret the sentiment and context of these reactions.
-- **Attract**: Identify key elements that drive engagement or attraction within the interaction.
-
-### 2. Power – Attraction of Influence and Effect it Causes
-
-**Algorithm Explanation**:
-
-- **Negative Effects**: Detect and categorize interactions leading to negative outcomes.
-- **Positive Effects**: Identify interactions resulting in positive engagement and reinforcement.
-- **No Effect/Balance**: Recognize neutral interactions that maintain a state of equanimity.
-
-**Implementation with OpenAI**:
-
-- Analyze interactions to classify them into negative, positive, or neutral categories.
-- Provide insights or feedback based on the classified interaction types to help users understand their impact.
-
-### 3. Moments – Connecting Experiences in a Timeline
-
-**Algorithm Explanation**:
-
-- **Past Reflections**: Encourage users to reflect on past experiences and how they influence current interactions.
-- **Future Insights**: Provide predictions or insights into potential future outcomes based on current patterns.
-- **Present Awareness**: Enhance present-moment awareness and mindfulness in interactions.
-
-**Implementation with OpenAI**:
-
-- Generate prompts and questions that guide users in reflecting on past experiences.
-- Use predictive models to offer insights into possible future scenarios based on current behavior patterns.
-- Enhance real-time feedback to promote present-moment awareness during interactions.
-
-## Integrating OpenAI with Introspection Algorithm
-
-1. **Input Parsing**: OpenAI can process and understand user inputs, identifying key elements of the interaction.
-2. **Contextual Understanding**: The model can maintain context over a conversation, providing relevant and consistent feedback.
-3. **Response Generation**: Based on the 3 Constants, OpenAI can generate responses that guide users through introspection, offering personalized insights and feedback.
-
-## Example Workflow
-
-1. **User Input**: The user describes an interaction or reflects on a past experience.
-2. **Analysis**:
-   - **Change**: The model analyzes the dynamics of the interaction (Act, React, Attract).
-   - **Power**: It classifies the effects of the interaction (negative, positive, neutral).
-   - **Moments**: It helps the user connect the interaction to past experiences, present awareness, and future possibilities.
-3. **Output**: The model generates an introspective response, helping the user understand their actions and emotions better.
-
-By combining IBM InspectorRAGet for robust data analysis and OpenAI for dynamic user interaction and introspection, we aim to create a powerful and comprehensive Emotional AI platform that provides meaningful insights and guidance to users. This is a possibility we are soon to explore. We hope to learn how to synergize the strengths of both platforms, utilizing them to their fullest potential and addressing any issues that arise.
-
-
-
-## Why We Are Using IBM InspectorRAGet as Our Base for Building Our Own AI Data Model
-
-IBM InspectorRAGet provides a robust foundation for building sophisticated AI models. It offers:
-
-1. **Proven Framework**: A reliable and tested framework that ensures stability and performance.
-2. **Advanced Metrics**: Comprehensive metrics for performance benchmarking and analysis.
-3. **Scalability**: Built to handle large-scale data, making it suitable for extensive AI applications.
-4. **Integration Capabilities**: Easy integration with various tools and platforms, including those provided by OpenAI.
-5. **Community Support**: Strong support from the IBM community and continuous updates.
-
-### Integrating OpenAI with IBM InspectorRAGet
-
-1. **Complementary Functions**:
-   - **IBM InspectorRAGet**: Focuses on performance benchmarking, aggregate and instance-level analysis, and providing a holistic view of results via metrics, annotator qualification, and dataset characterization.
-   - **OpenAI**: Enhances introspection capabilities by analyzing interactions, generating personalized insights, and maintaining contextual understanding over conversations.
-
-2. **Seamless Integration**:
-   - OpenAI’s models can process data provided by IBM InspectorRAGet, ensuring a continuous flow of information and insights.
-   - The structured data and metrics from InspectorRAGet can inform and improve the responses generated by OpenAI, ensuring they are accurate and relevant.
-
-3. **Enhanced Capabilities**:
-   - Using both tools together leverages the strengths of each, providing a more comprehensive AI solution.
-   - InspectorRAGet handles the backend data analysis, while OpenAI focuses on front-end user interactions and introspection, ensuring a seamless user experience.
-
-By combining IBM InspectorRAGet for robust data analysis and OpenAI for dynamic user interaction and introspection, you can create a powerful and comprehensive Emotional AI platform that provides meaningful insights and guidance to users. This synergy ensures that the strengths of both platforms are utilized to their fullest potential, without conflict.
-
-For more information, refer to the [IBM InspectorRAGet documentation](https://www.ibm.com/docs/en).
+https://www.ibm.com/docs/en).
 
 # Emotional AI and Introspection App Integration
 
